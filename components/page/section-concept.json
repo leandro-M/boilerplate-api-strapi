@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "name": "SectionConcept",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Concepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concepts"
+    }
+  }
+}

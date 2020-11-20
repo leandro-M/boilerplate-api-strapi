@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_tech_icons",
+  "info": {
+    "name": "TechIcons",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

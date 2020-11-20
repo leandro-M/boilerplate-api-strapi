@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "SectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "SectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "SectionConcept": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concept"
+    },
+    "SectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules"
+    },
+    "SectionAgenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-agenda"
+    },
+    "PrincingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.princing-box"
+    }
+  }
+}
