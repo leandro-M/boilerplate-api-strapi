@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "LandingPage",
+    "name": "landingPage",
     "description": ""
   },
   "options": {

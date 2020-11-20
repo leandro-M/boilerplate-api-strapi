@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_section_concepts",
   "info": {
-    "name": "SectionConcept",
+    "name": "sectionConcept",
     "icon": "list"
   },
   "options": {},
